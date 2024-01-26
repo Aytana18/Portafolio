@@ -1,0 +1,27 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+/* Asegúrate de que esta regla está en tu archivo index.module.css */
+
+.heroBanner {
+  background-color: #00bcd4; /* Este es un color celeste, puedes ajustar el código de color según tus preferencias */
+  color: #fff; /* Este es el color del texto, aquí es blanco, ajusta según tus necesidades */
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
